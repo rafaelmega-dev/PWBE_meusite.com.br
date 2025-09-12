@@ -1,0 +1,21 @@
+{
+    "professores": [
+        {
+            "nome": "Thiago Dalles",
+            "email": "thiagao0934@gmail.com",
+            "disciplina": "Lingua Portuguesa"
+        },
+        {
+            "nome": "Rafael",
+            "email": "rafaeledits179@gmail.com",
+            "disciplina": "Matemática"
+        }
+    ],
+    "alunos": [
+        {
+            "nome": "Rafael Leme Mega",
+            "email": "rafaeledits179@gmail.com",
+            "matricula": "2039412"
+        }
+    ]
+}
