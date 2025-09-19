@@ -1,0 +1,74 @@
+/* ======== ESTILOS GERAIS ======== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ======== CABEÇALHO ======== */
+div > h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+div > a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+div > a:hover {
+    background-color: #2d6830;
+}
+
+hr {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+/* ======== SUBTÍTULO ======== */
+h2 {
+    color: #444;
+    margin: 20px 0;
+}
+
+/* ======== GALERIA ======== */
+body > div + h2 + div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ======== CADA BLOCO DE IMAGEM ======== */
+body > div + h2 + div > div {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    display: inline-block;      /* ajusta ao tamanho da imagem */
+    vertical-align: top;        /* evita espaço extra abaixo */
+    padding: 0;                 /* garante sem espaçamento interno */
+    margin: 0;                  /* remove margem padrão */
+}
+
+body > div + h2 + div > div:hover {
+    transform: scale(1.05);
+}
+
+/* ======== IMAGEM ======== */
+body > div + h2 + div img {
+    width: 150px;    /* largura fixa */
+    height: auto;    /* altura proporcional */
+    display: block;  /* elimina espaço de linha */
+    border-radius: 5px;
+}
+

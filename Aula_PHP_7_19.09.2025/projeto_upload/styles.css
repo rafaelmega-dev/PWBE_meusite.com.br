@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para todo o site */
+    background-color: #f9f9f9; /* Cor de fundo clara para dar contraste com as imagens */
+    margin: 0; /* Remove a margem padrão do navegador */
+    padding: 20px; /* Espaçamento interno para o conteúdo não encostar nas bordas da janela */
+    text-align: center; /* Centraliza todo o texto horizontalmente */
+}
+h1 {
+    color: #333; /* Cor do texto do título principal */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+}
+button {
+    padding: 10px 20px; /* Espaçamento interno para aumentar a área clicável */
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; 
+    border-radius: 5px; /* Arredonda levemente os cantos do botão */
+}
+button:hover {
+    background-color: #2d6830; /* Cor do botão quando o mouse passa por cima */
+}
+ a {
+    display: inline-block; /* Faz o link se comportar como um bloco pequeno para aplicar padding */
+    padding: 10px 20px; /* Espaçamento interno para aumentar a área clicável */
+    background-color: #ff0000; /* Cor de fundo verde */
+    color: white; /* Cor do texto do link */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    border-radius: 5px; /* Arredonda levemente os cantos do botão */
+    transition: background-color 0.3s; /* Animação suave na mudança de cor quando o mouse passa */
+}
+
+ a:hover {
+    background-color: #710000; /* Cor do botão quando o mouse passa por cima */
+}
+
+
